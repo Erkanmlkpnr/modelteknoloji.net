@@ -88,7 +88,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               foundingDate: "2024-08-20",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+90-507-710-78-47",
+                telephone: "+90-312-999-46-13",
                 contactType: "customer service",
                 email: "erkan@modelteknoloji.net",
                 areaServed: "TR",
@@ -96,10 +96,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               },
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Değirmiçem Mahallesi 16051 Nolu Sokak Milenyum İş Merkezi No:19 Kat:1 İç Kapı No:37",
-                addressLocality: "Şehitkamil",
-                addressRegion: "Gaziantep",
-                postalCode: "27000",
+                streetAddress: "Kızılırmak Mahallesi Dumlupınar Bulvarı No:3C1-160 Next Level Plaza",
+                addressLocality: "Çankaya",
+                addressRegion: "Ankara",
+                postalCode: "06510",
                 addressCountry: "TR",
               },
             }),

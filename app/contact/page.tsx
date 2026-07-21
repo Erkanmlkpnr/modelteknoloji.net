@@ -146,14 +146,14 @@ export default function ContactPage() {
           </div>
           <div className="quick-contact__row">
             <span className="quick-contact__icon"><Icon paths={PHONE} size={20} strokeWidth={1.8} /></span>
-            <a href="tel:+905077107847">+90 507 710 78 47</a>
+            <a href="tel:+903129994613">+90 312 999 46 13</a>
           </div>
           <div className="quick-contact__row">
             <span className="quick-contact__icon"><Icon paths={PIN} size={20} strokeWidth={1.8} /></span>
             <p>
-              Değirmiçem Mah. 16051 Sk.<br />
-              Milenyum İş Mrk. No:19 Kat:1/37<br />
-              Şehitkamil / Gaziantep
+              Kızılırmak Mah. Dumlupınar Bulvarı<br />
+              No:3C1-160 Next Level Plaza<br />
+              Çankaya / Ankara
             </p>
           </div>
           <div className="quick-contact__social">
