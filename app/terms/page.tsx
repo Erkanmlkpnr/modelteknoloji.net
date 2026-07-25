@@ -11,7 +11,7 @@ const SECTIONS = [
   { title: "2) Hizmet değişiklikleri", body: "Sitemizin içeriğini, fiyatlarını ve hizmetlerini önceden bildirim yapmaksızın değiştirme hakkını saklı tutarız." },
   { title: "3) Sorumluluk sınırları", body: "Site üzerinden yapılan bağlantılar üçüncü taraf sitelerine yönlendirebilir; bu sitelerin içeriklerinden sorumlu değiliz." },
   { title: "4) Uygulanacak hukuk", body: "Bu şartlar Türkiye Cumhuriyeti hukuku kapsamında değerlendirilir. Uyuşmazlıklarda Gaziantep mahkemeleri yetkilidir." },
-  { title: "5) İletişim", body: "Sorularınız için erkan@modelteknoloji.net adresine yazabilirsiniz." },
+  { title: "5) İletişim", body: "Sorularınız için info@modelteknoloji.net adresine yazabilirsiniz." },
 ];
 
 export default function TermsPage() {

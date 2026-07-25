@@ -32,7 +32,7 @@ export default function Footer() {
 
         <div className="footer-col">
           <span className="footer-col-title">İletişim</span>
-          <a href="mailto:erkan@modelteknoloji.net">erkan@modelteknoloji.net</a>
+          <a href="mailto:info@modelteknoloji.net">info@modelteknoloji.net</a>
           <a href="tel:+903129994613">+90 312 999 46 13</a>
           <p>Kızılırmak Mah. Dumlupınar Bulvarı No:3C1-160 Next Level Plaza Çankaya / Ankara</p>
         </div>

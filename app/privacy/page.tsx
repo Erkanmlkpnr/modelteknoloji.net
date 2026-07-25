@@ -12,7 +12,7 @@ const SECTIONS = [
   { title: "3) Analitik", body: "Google Tag Manager ve Google Analytics aracılığıyla site kullanım verileri anonim olarak izlenmektedir." },
   { title: "4) Üçüncü taraflar", body: "Kişisel verileriniz üçüncü taraflarla paylaşılmaz. Hukuki yükümlülükler kapsamında resmi taleplere yanıt verilebilir." },
   { title: "5) Veri saklama", body: "Toplanan veriler gereksiz yere saklanmaz; talep üzerine silinmesi mümkündür." },
-  { title: "6) İletişim", body: "Veri gizliliğiyle ilgili her türlü talebiniz için erkan@modelteknoloji.net adresine yazabilirsiniz." },
+  { title: "6) İletişim", body: "Veri gizliliğiyle ilgili her türlü talebiniz için info@modelteknoloji.net adresine yazabilirsiniz." },
 ];
 
 export default function PrivacyPage() {

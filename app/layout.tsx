@@ -47,7 +47,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/img/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/img/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/img/favicon.png" />
 
         {/* Google Tag Manager */}
         <Script id="gtm" strategy="afterInteractive">{`
@@ -90,7 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "@type": "ContactPoint",
                 telephone: "+90-312-999-46-13",
                 contactType: "customer service",
-                email: "erkan@modelteknoloji.net",
+                email: "info@modelteknoloji.net",
                 areaServed: "TR",
                 availableLanguage: "Turkish",
               },

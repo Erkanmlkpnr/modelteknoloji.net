@@ -42,7 +42,7 @@ export default function ContactPage() {
         "",
         data.message,
       ].join("\n");
-      window.location.href = `mailto:erkan@modelteknoloji.net?subject=${encodeURIComponent(
+      window.location.href = `mailto:info@modelteknoloji.net?subject=${encodeURIComponent(
         `[Web] ${data.subject || "İletişim formu"}`
       )}&body=${encodeURIComponent(body)}`;
       return;
@@ -132,7 +132,7 @@ export default function ContactPage() {
             )}
             {status === "error" && (
               <span className="form-sent-note" style={{ color: "#B4232A" }}>
-                Gönderilemedi. Lütfen tekrar deneyin veya erkan@modelteknoloji.net adresine yazın.
+                Gönderilemedi. Lütfen tekrar deneyin veya info@modelteknoloji.net adresine yazın.
               </span>
             )}
           </div>
@@ -142,7 +142,7 @@ export default function ContactPage() {
           <h3>Hızlı iletişim</h3>
           <div className="quick-contact__row">
             <span className="quick-contact__icon"><Icon paths={MAIL} size={20} strokeWidth={1.8} /></span>
-            <a href="mailto:erkan@modelteknoloji.net">erkan@modelteknoloji.net</a>
+            <a href="mailto:info@modelteknoloji.net">info@modelteknoloji.net</a>
           </div>
           <div className="quick-contact__row">
             <span className="quick-contact__icon"><Icon paths={PHONE} size={20} strokeWidth={1.8} /></span>
