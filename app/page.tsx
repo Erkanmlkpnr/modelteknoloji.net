@@ -1,7 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   Icon,
-  CategoryIcon,
   SHIELD,
   SHIELD_CHECK,
   CLOCK,
@@ -16,12 +16,43 @@ import {
 } from "@/components/Icons";
 
 const FEATURED = [
-  { id: "solid-edge",            cat: "CAD",        name: "Solid Edge",            desc: "Senkron teknolojili profesyonel 3B CAD. Parça, sac metal ve montaj tasarımında endüstri standardı." },
-  { id: "solid-edge-electrical", cat: "Electrical", name: "Solid Edge Electrical", desc: "Elektrik şeması ve kablo demeti tasarımı. Mekanik tasarımla tam entegre elektromekanik iş akışı." },
-  { id: "solid-edge-floefd",     cat: "Simulation", name: "FloEFD",                desc: "CAD içine gömülü hesaplamalı akışkanlar dinamiği. Tasarım aşamasında akış ve ısı analizi." },
-  { id: "solid-edge-keyshot",    cat: "Visualization", name: "KeyShot",            desc: "Gerçek zamanlı render ve animasyon. Ürünlerinizi pazarlama kalitesinde görselleştirin." },
-  { id: "solid-edge-simulation", cat: "Simulation", name: "Simulation",            desc: "Sonlu elemanlar analizi ile yapısal doğrulama. Prototip maliyetlerini tasarım masasında azaltın." },
-  { id: "solid-edge-pdm",        cat: "PDM",        name: "PDM",                   desc: "Ürün veri yönetimi ile revizyon kontrolü. Ekipleriniz her zaman doğru veriyle çalışır." },
+  { id: "solid-edge",            cat: "CAD",           name: "Solid Edge",            desc: "Senkron teknolojili 3B ve 2B CAD. Modelleme, sac metal, montaj ve teknik resim tek uygulamada.", img: "/img/buyuk-montaj.jpeg",      alt: "Solid Edge'de çok parçalı büyük montaj görünümü" },
+  { id: "solid-edge-electrical", cat: "Electrical",    name: "Solid Edge Electrical", desc: "Elektrik şeması ve kablo demeti tasarımı. Mekanik tasarımla tam entegre elektromekanik iş akışı.", img: "/img/wiring-harness.jpeg",   alt: "Solid Edge Electrical'da kablo demeti tasarımı" },
+  { id: "solid-edge-floefd",     cat: "Simulation",    name: "FloEFD",                desc: "CAD içine gömülü hesaplamalı akışkanlar dinamiği. Tasarım aşamasında akış ve ısı analizi.", img: "/img/3d-publishing.jpeg",    alt: "Solid Edge FloEFD için üç boyutlu mühendislik modeli görünümü" },
+  { id: "solid-edge-keyshot",    cat: "Visualization", name: "KeyShot",               desc: "Gerçek zamanlı render ve animasyon. Ürünlerinizi pazarlama kalitesinde görselleştirin.", img: "/img/keyshot-render.jpeg",    alt: "KeyShot ile hazırlanmış foto gerçekçi ürün render'ı" },
+  { id: "solid-edge-simulation", cat: "Simulation",    name: "Simulation",            desc: "Sonlu elemanlar analizi ile yapısal doğrulama. Prototip maliyetlerini tasarım masasında azaltın.", img: "/img/cam-pro-simulasyon.jpeg", alt: "Solid Edge Simulation'da analiz ve simülasyon arayüzü" },
+  { id: "solid-edge-pdm",        cat: "PDM",           name: "PDM",                   desc: "Temel düzeyde dosya yönetimi. Klonlama, otomatik kodlama ve toplu isim/proje değiştirme.", img: "/img/electrical-pano.jpeg",   alt: "Solid Edge PDM ile yönetilen mühendislik proje verileri" },
+];
+
+const SHOWCASE = [
+  {
+    img: "/img/buyuk-montaj.jpeg",
+    alt: "Solid Edge'de çok parçalı bir montajın patlatılmış görünümü",
+    cat: "MONTAJ",
+    title: "Büyük montaj tasarımı",
+    href: "/products/solid-edge",
+  },
+  {
+    img: "/img/wiring-harness.jpeg",
+    alt: "Solid Edge Electrical'da kablo demeti şeması ve eşlenik 3B model",
+    cat: "ELECTRICAL",
+    title: "Elektrik ve kablo demeti",
+    href: "/products/solid-edge-electrical",
+  },
+  {
+    img: "/img/keyshot-render.jpeg",
+    alt: "KeyShot ile alınmış foto gerçekçi kahve makinesi render'ı",
+    cat: "KEYSHOT",
+    title: "Foto gerçekçi render",
+    href: "/products/solid-edge-keyshot",
+  },
+  {
+    img: "/img/cam-pro-simulasyon.jpeg",
+    alt: "Solid Edge CAM Pro'da CNC işleme simülasyonu",
+    cat: "CAM PRO",
+    title: "CNC üretim programlama",
+    href: "/products/solid-edge-cam-pro",
+  },
 ];
 
 const WHY_US = [
@@ -65,7 +96,12 @@ export default function Home() {
       <section className="hero">
         <div className="container hero__inner">
           <div className="hero__copy">
-            <div className="badge-pill">Siemens Solid Edge Çözüm Ortağı</div>
+            {/* Metin zaten büyük harfle yazıldı: html lang="tr" altında
+                text-transform:uppercase markayı "SİEMENS SOLİD EDGE" yapıyordu.
+                Büyük harfli metinde uppercase etkisiz kaldığı için sorun çözülür. */}
+            <div className="badge-pill">
+              <span lang="en">SIEMENS SOLID EDGE</span> ÇÖZÜM ORTAĞI
+            </div>
             <h1 className="hero__title">Yenilikçi Mühendislik Çözüm Ortağınız</h1>
             <p className="hero__lead">
               Siemens Solid Edge ürün ailesinin Türkiye&apos;deki satış, eğitim ve destek çözüm
@@ -92,6 +128,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ═══ GÖRSEL VİTRİN ═══ */}
+      <section className="container home-section">
+        <h2 className="section-title">Solid Edge ile neler yapabilirsiniz?</h2>
+        <p className="section-sub" style={{ marginBottom: 36 }}>
+          Tasarımdan üretime, tek platformda gerçek proje çıktıları.
+        </p>
+        <div className="showcase-grid">
+          {SHOWCASE.map((s) => (
+            <Link key={s.img} href={s.href} className="showcase-tile">
+              <Image
+                src={s.img}
+                alt={s.alt}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                className="showcase-tile__img"
+              />
+              <div className="showcase-tile__overlay">
+                <span className="showcase-tile__cat" lang="en">{s.cat}</span>
+                <span className="showcase-tile__title">{s.title}</span>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* ═══ ÖNE ÇIKAN ÜRÜNLER ═══ */}
       <section className="container home-section">
         <div className="home-section__head">
@@ -104,9 +165,19 @@ export default function Home() {
         <div className="grid-cards">
           {FEATURED.map((p) => (
             <div key={p.id} className="pcard">
-              <div className="pcard__media"><CategoryIcon cat={p.cat} /></div>
+              <div className="pcard__media pcard__media--image">
+                <Image
+                  src={p.img}
+                  alt={p.alt}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="pcard__media-img"
+                />
+              </div>
               <div className="pcard__body">
-                <span className="cat-chip">{p.cat}</span>
+                {/* Kategoriler İngilizce: "en" locale ile büyütülür ki
+                    "Electrical" → "ELECTRİCAL" olmasın. */}
+                <span className="cat-chip" lang="en">{p.cat.toLocaleUpperCase("en")}</span>
                 <h3 className="pcard__title">{p.name}</h3>
                 <p className="pcard__desc">{p.desc}</p>
                 <Link href={`/products/${p.id}`} className="arrow-link">Detayları incele →</Link>

@@ -2,7 +2,7 @@
     {
       "id": "solid-edge-tasarimin-gelecegi",
       "title": "Solid Edge: Tasarımın Geleceği",
-      "imageUrl": "/img/cam-pro.jpeg",
+      "imageUrl": "/img/solidedge.jpeg",
       "summary": "Tasarım dünyasında hız ve yaratıcılık, başarıya ulaşmanın anahtarlarıdır...",
       "content": [
         {
@@ -16,20 +16,20 @@
         {
           "type": "list",
           "items": [
-            "Entegre CAD, CAM ve CAE yetenekleri",
+            "3B ve 2B CAD'i tek uygulamada birleştiren yapı",
             "Eşsiz senkron teknoloji",
-            "Bulut entegrasyonu",
-            "Gelişmiş simülasyon özellikleri",
+            "Sac metal, yüzey ve montaj için özel iş akışları",
+            "Büyük montajlarda stabil performans",
             "Modüler iş akışları"
           ]
         },
         {
           "type": "heading",
-          "text": "Önsezili Modelleme: Tasarımda Esneklik ve Hız"
+          "text": "Tek Uygulama: Tasarımdan Üretime Kesintisiz Akış"
         },
         {
           "type": "paragraph",
-          "text": "Tasarım sürecinde hız ve esneklik kazanmak, başarıya ulaşmanın anahtarıdır. İşte burada devreye önsezili modelleme girer. Solid Edge'in sunduğu araçlar, yaratıcı düşünceyi destekler ve hızla değişen ihtiyaçlara anında cevap verir."
+          "text": "Solid Edge; ürün modelleme, montaj, sac metal, yüzey çalışmaları, teknik resim ve üretime hazırlık adımlarının tamamını tek uygulamada toplar. Farklı programlar arasında veri taşımak zorunda kalmadığınız için hem zaman kaybı hem de dönüşüm kaynaklı hata riski ortadan kalkar."
         },
         {
           "type": "heading",
@@ -37,7 +37,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Senkron teknoloji, tasarım süreçlerini daha pratik hale getirerek sınırları zorluyor. Bu inovatif yaklaşım, zamandan tasarruf etmenizi sağlarken, verimliliği de artırıyor."
+          "text": "Senkron teknoloji, dışarıdan gelen yabancı veya evrensel CAD formatlarını açıp düzenlemenize olanak tanır. Bunun için parametrik unsurlara ve sketch düzenlemeye ihtiyaç duymazsınız; değişikliği doğrudan model üzerinden yaparsınız. Unsurları ve montaj ilişkilerini yeniden tanımlayabildiğiniz için revizyonlar çok daha kısa sürede tamamlanır."
         },
         {
           "type": "heading",
@@ -49,11 +49,11 @@
         },
         {
           "type": "heading",
-          "text": "Bulut Tabanlı İşbirliği: Ekip Çalışmasını Güçlendirin"
+          "text": "Büyük Montajlar: Stabil ve Akıcı Çalışma"
         },
         {
           "type": "paragraph",
-          "text": "Bulut tabanlı işbirliği sayesinde ekip üyeleri farklı konumlarda olsalar bile aynı projede kolayca çalışabilir. Solid Edge'in sunduğu bu özellik, ekip çalışmasını güçlendirir ve verimliliği artırır."
+          "text": "Çok sayıda parça içeren montajlarda açılma süresi, grafik performansı, parça düzenleme ve teknik resim geçişleri kritik önem taşır. Solid Edge, büyük montajlarda stabil çalışma olanağı sunarak bu adımlarda hız ve verim sağlar."
         },
         {
           "type": "heading",
@@ -69,7 +69,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Solid Edge'in sunduğu yenilikçi özellikler, tasarım sürecinizi hızlandırabilir ve verimliliğinizi artırabilir. Parametrik modelleme, senkron teknoloji ve bulut tabanlı işbirliği gibi araçlarla projelerinizi daha verimli yönetebilirsiniz. Solid Edge ile tasarım dünyasında bir adım öne çıkmaya hazır olun!"
+          "text": "Solid Edge'in sunduğu yenilikçi özellikler, tasarım sürecinizi hızlandırabilir ve verimliliğinizi artırabilir. Senkron teknoloji, parametrik modelleme ve büyük montaj performansı gibi güçlü yanlarıyla projelerinizi daha verimli yönetebilirsiniz. Solid Edge ile tasarım dünyasında bir adım öne çıkmaya hazır olun!"
         }
       ],
       "date": "2025-02-16",
@@ -78,12 +78,20 @@
     {
       "id": "solid-edge-2d-endustriyel-tasarim",
       "title": "Solid Edge 2D: Endüstriyel Tasarım ve Mühendislikte Yenilik",
-      "imageUrl": "/img/egitim.jpeg",
-      "summary": "Endüstriyel tasarım, mühendislik ve üretim süreçlerinde sıkça karşımıza çıkan yazılımlardan biri de Solid Edge 2D'dir...",
+      "imageUrl": "/img/edgecampro.jpeg",
+      "summary": "Solid Edge 2D Draft, DWG ve DXF dosyalarınızı ek bir programa ihtiyaç duymadan açıp düzenleyebileceğiniz ücretsiz bir teknik çizim uygulamasıdır...",
       "content": [
         {
           "type": "paragraph",
-          "text": "Endüstriyel tasarım, mühendislik ve üretim süreçlerinde sıkça karşımıza çıkan yazılımlardan biri de Solid Edge 2D'dir. 2D çizim ve tasarım yetenekleri ile öne çıkan bu yazılım, mühendisler ve tasarımcılar için önemli bir araç olarak kabul edilir. Hızlı ve etkili tasarım süreçleri sunan Solid Edge 2D, hassasiyet ve doğruluk gerektiren projeler için ideal bir seçenektir. Bu yazıda, Solid Edge 2D'nin temel özelliklerini, avantajlarını ve endüstriyel kullanım alanlarını inceleyeceğiz."
+          "text": "Endüstriyel tasarım, mühendislik ve üretim süreçlerinde sıkça karşımıza çıkan yazılımlardan biri de Solid Edge 2D Draft'tır. 2D çizim ve tasarım yetenekleri ile öne çıkan bu yazılım, mühendisler ve tasarımcılar için önemli bir araç olarak kabul edilir. En dikkat çekici yanı ise tamamen ücretsiz olması ve sınırsız sayıda bilgisayara kurulabilmesidir. Bu yazıda, Solid Edge 2D'nin temel özelliklerini, avantajlarını ve endüstriyel kullanım alanlarını inceleyeceğiz."
+        },
+        {
+          "type": "heading",
+          "text": "Ücretsiz ve Sınırsız Kurulum"
+        },
+        {
+          "type": "paragraph",
+          "text": "Solid Edge 2D Draft tamamen ücretsizdir ve sınırsız sayıda bilgisayara kurulabilir. Ek bir programa ihtiyaç duymadan DWG ve DXF dosyalarınızı açabilir, hatta düzenleyebilirsiniz. Bu sayede tedarikçilerinizden veya müşterilerinizden gelen çizimleri lisans maliyeti olmadan tüm ekibinizle paylaşabilirsiniz."
         },
         {
           "type": "heading",
@@ -98,7 +106,7 @@
           "items": [
             "Kullanıcı Dostu Arayüz: Solid Edge 2D, sezgisel ve kolay öğrenilebilir bir arayüze sahiptir.",
             "Hassas Çizim Araçları: Teknik resim ve endüstriyel tasarım için detaylı ve hassas çizimler oluşturabilirsiniz.",
-            "Dosya Uyumluluğu: Çeşitli formatlardaki dosyaları destekleyerek farklı yazılımlarla entegrasyonu kolaylaştırır.",
+            "Dosya Uyumluluğu: DWG ve DXF başta olmak üzere yaygın formatları destekleyerek farklı yazılımlarla entegrasyonu kolaylaştırır.",
             "Verimli Tasarım Süreçleri: Karmaşık tasarımları daha basit ve hızlı bir şekilde oluşturmanıza yardımcı olur.",
             "Geniş Öğrenme Kaynakları: Online rehberler, eğitim videoları ve kullanıcı forumları sayesinde öğrenme sürecini hızlandırır."
           ]
@@ -111,7 +119,7 @@
           "type": "list",
           "items": [
             "Makine Mühendisliği: Teknik resimler, montaj planları ve parça listeleri oluşturmak için kullanılır.",
-            "Mimarlık ve Yapı Tasarımı: Kat planları, kesit görünümleri ve detaylandırılmış mimari projeler hazırlamak için idealdir.",
+            "Sac Metal ve İmalat Resimleri: Kesim, büküm ve delik tablolarını içeren imalat çizimleri hazırlamak için idealdir.",
             "Otomotiv ve Havacılık: Hassas ve doğruluk gerektiren teknik çizimler yapmaya imkan tanır.",
             "Üretim ve Endüstriyel Tasarım: Üretim hattı planlaması ve makine parçalarının tasarımında kullanılır."
           ]
@@ -123,10 +131,10 @@
         {
           "type": "list",
           "items": [
-            "Kısayolları Kullanmın: Yazılımın sunduğu kısayollar işlemleri hızlandırır.",
+            "Kısayolları Kullanın: Yazılımın sunduğu kısayollar işlemleri hızlandırır.",
             "Çalışma Alanını Kendi İhtiyaçlarınıza Göre Özelleştirin: Araç çubukları ve menüler ihtiyacınıza göre ayarlanabilir.",
-            "Katmanlar ve Gruplamalar Kullanmaktan Kaçınmayın: Daha organize bir tasarım süreci sağlar.",
-            "Sık Kullanılan Komutları Menünüzde Toplayın: Zamandan tasarruf sağlamak için kullanış odaklı bir düzen oluşturun."
+            "Katmanlar ve Gruplamalar Kullanın: Daha organize bir tasarım süreci sağlar.",
+            "Sık Kullanılan Komutları Menünüzde Toplayın: Zamandan tasarruf sağlamak için kullanım odaklı bir düzen oluşturun."
           ]
         },
         {
@@ -135,7 +143,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Solid Edge 2D, teknik çizim ve tasarım alanında öne çıkan bir yazılımdır. Kullanıcı dostu arayüzü, hassas çizim araçları ve geniş dosya uyumluluğu ile endüstriyel tasarım ve mühendislik projelerinde fark yaratır. Doğru kaynaklar ve stratejilerle kullanıldığında, tasarım süreçlerini optimize etmek ve daha verimli çalışmak mümkün olur."
+          "text": "Solid Edge 2D Draft, teknik çizim ve tasarım alanında öne çıkan bir yazılımdır. Kullanıcı dostu arayüzü, hassas çizim araçları ve DWG/DXF uyumluluğu ile endüstriyel tasarım ve mühendislik projelerinde fark yaratır. Üstelik tamamen ücretsiz olduğu ve sınırsız sayıda bilgisayara kurulabildiği için hiçbir lisans maliyeti olmadan tüm ekibinizin kullanımına açabilirsiniz."
         }
       ],
       "date": "2025-02-17",
@@ -144,7 +152,7 @@
     {
       "id": "solid-edge-simulation-endustriyel-analiz",
       "title": "Solid Edge Simulation: Endüstriyel Tasarımlarda Performans Analizi",
-      "imageUrl": "/img/egitimvedestek.jpeg",
+      "imageUrl": "/img/solid-edge.jpeg",
       "summary": "Modern mühendislik süreçlerinde simülasyon teknolojileri, ürün geliştirme aşamasında kritik öneme sahip...",
       "content": [
         {
@@ -212,7 +220,7 @@
     {
       "id": "solid-edge-electrical-endustriyel-otomasyon",
       "title": "Solid Edge Electrical: Endüstriyel Otomasyon Sistemlerinde Elektrik Tasarımı",
-      "imageUrl": "/img/edgecampro.jpeg",
+      "imageUrl": "/img/egitimvedestek.jpeg",
       "summary": "Endüstriyel otomasyon sistemlerinin kalbinde elektrik tasarımı yatar ve Solid Edge Electrical bu alanda devrim yaratıyor...",
       "content": [
         {
@@ -280,7 +288,7 @@
     {
       "id": "solid-edge-cam-pro-uretim-optimizasyonu",
       "title": "Solid Edge CAM Pro: Üretim Süreçlerini Optimize Etmenin Yolları",
-      "imageUrl": "/img/carousel.webp",
+      "imageUrl": "/img/cam-pro.jpeg",
       "summary": "Modern üretim ortamlarında verimlilik ve hassasiyet, rekabet avantajı sağlamanın temel unsurlarıdır...",
       "content": [
         {

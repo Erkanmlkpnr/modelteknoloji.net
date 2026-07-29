@@ -37,7 +37,9 @@ export default async function BlogsPage() {
                   {!imgUrl && <CategoryIcon cat="CAD" />}
                 </div>
                 <div className="pcard__body">
-                  <span className="cat-chip">{post.authorName ?? "Solid Edge"}</span>
+                  {/* Yazar adı Türkçe: "tr" locale ile büyütülür ("TEKNİK EKİP").
+                      Marka adı fallback değil — "SOLİD EDGE" olarak çıkardı. */}
+                  <span className="cat-chip">{(post.authorName ?? "Teknik Ekip").toLocaleUpperCase("tr")}</span>
                   <h2 className="pcard__title">{post.title}</h2>
                   {post.summary && <p className="pcard__desc">{post.summary}</p>}
                   <div className="pcard__meta">

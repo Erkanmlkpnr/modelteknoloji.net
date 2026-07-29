@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import products from "@/lib/json/product.json";
 import { CategoryIcon } from "@/components/Icons";
 
@@ -38,9 +39,23 @@ export default function ProductsPage() {
       <div className="grid-cards grid-cards--fill">
         {visible.map((p: any) => (
           <div key={p.id} className="pcard">
-            <div className="pcard__media"><CategoryIcon cat={p.category} /></div>
+            <div className={`pcard__media${p.image ? " pcard__media--image" : ""}`}>
+              {p.image ? (
+                <Image
+                  src={p.image}
+                  alt={p.imageAlt || p.title}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="pcard__media-img"
+                />
+              ) : (
+                <CategoryIcon cat={p.category} />
+              )}
+            </div>
             <div className="pcard__body">
-              <span className="cat-chip">{p.category}</span>
+              {/* Kategoriler İngilizce: "en" locale ile büyütülür ki
+                  "Simulation" → "SİMULATİON" olmasın. */}
+              <span className="cat-chip" lang="en">{p.category.toLocaleUpperCase("en")}</span>
               <h2 className="pcard__title">{p.title}</h2>
               <p className="pcard__desc" style={{ display: "-webkit-box", WebkitLineClamp: 3, WebkitBoxOrient: "vertical", overflow: "hidden" }}>
                 {p.description}
