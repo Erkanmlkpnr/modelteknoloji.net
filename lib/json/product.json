@@ -14,7 +14,7 @@
       "Büyük montajlarda stabil çalışma: açılma süresi, grafik performansı, parça düzenleme ve teknik resim geçişlerinde hız ve verim.",
       "Foto gerçekçi render alabileceğiniz KeyShot uygulaması ürünle birlikte gelir."
     ],
-    "videoUrl": "https://www.youtube.com/embed/yBCbyZbhmWU"
+    "videoUrl": "https://aznmmdojutpijuhh.public.blob.vercel-storage.com/video/solid-edge-designcenter-2026.mp4"
   },
   {
     "id": "solid-edge-electrical",
@@ -63,7 +63,7 @@
       "Canlı bağlantı sayesinde Solid Edge modellerindeki değişikliklerin render sahnesine yansıması.",
       "Pazarlama, satış ve web siteniz için yüksek kaliteli görseller ve videolar üretme."
     ],
-    "videoUrl": "https://www.youtube.com/embed/hG3nLkq3LEQ"
+    "videoUrl": "https://aznmmdojutpijuhh.public.blob.vercel-storage.com/video/solid-edge-keyshot.mp4"
   },
   {
     "id": "solid-edge-simulation",
@@ -79,7 +79,7 @@
       "Termal analizlerle sıcaklık etkilerini değerlendirme ve optimize etme.",
       "Analiz sonuçlarını 3D modeller üzerinde görselleştirerek tasarım sürecini iyileştirme."
     ],
-    "videoUrl": "https://www.youtube.com/embed/yyCKp2nawg8"
+    "videoUrl": "https://aznmmdojutpijuhh.public.blob.vercel-storage.com/video/solid-edge-simulation.mp4"
   },
   {
     "id": "solid-edge-pdm",
@@ -111,7 +111,7 @@
       "Gelişmiş simülasyon araçları ile işleme sürecini önceden test etme.",
       "Malzeme kullanımını ve atıkları azaltarak maliyetleri düşürme."
     ],
-    "videoUrl": "https://www.youtube.com/embed/v6xw10TkoQo"
+    "videoUrl": "https://aznmmdojutpijuhh.public.blob.vercel-storage.com/video/solid-edge-cam-pro.mp4"
   },
   {
     "id": "solid-edge-2d",
@@ -127,6 +127,6 @@
       "Üretim için gereken tüm bilgileri içeren detaylı ve standartlara uygun teknik çizimler.",
       "Solid Edge 3B modellerinden 2B teknik resme kolay geçiş."
     ],
-    "videoUrl": "https://www.youtube.com/embed/cxzFYDleBQ0"
+    "videoUrl": "https://aznmmdojutpijuhh.public.blob.vercel-storage.com/video/solid-edge-2d-dwg.mp4"
   }
 ]

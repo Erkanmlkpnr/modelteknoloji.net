@@ -99,14 +99,26 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           <div>
             {product.videoUrl ? (
               <div style={{ borderRadius: 16, overflow: "hidden", boxShadow: "0 20px 50px rgba(22,40,63,.12)" }}>
-                <iframe
-                  src={product.videoUrl}
-                  title={product.title}
-                  width="100%"
-                  height="320"
-                  style={{ border: "none", display: "block" }}
-                  allowFullScreen
-                />
+                {product.videoUrl.endsWith(".mp4") ? (
+                  <video
+                    src={product.videoUrl}
+                    poster={product.image}
+                    controls
+                    preload="metadata"
+                    playsInline
+                    width="100%"
+                    style={{ display: "block", width: "100%", background: "#0D2740" }}
+                  />
+                ) : (
+                  <iframe
+                    src={product.videoUrl}
+                    title={product.title}
+                    width="100%"
+                    height="320"
+                    style={{ border: "none", display: "block" }}
+                    allowFullScreen
+                  />
+                )}
               </div>
             ) : (
               <div style={{ height: 320, background: "#E4EAEF", borderRadius: 16, display: "flex", alignItems: "center", justifyContent: "center" }}>
