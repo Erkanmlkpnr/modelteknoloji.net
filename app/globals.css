@@ -226,14 +226,16 @@ input:focus, select:focus, textarea:focus {
   margin-top: 30px;
 }
 .hero__visual {
-  display: flex;
-  justify-content: center;
+  position: relative;
   min-height: 310px;
-  padding: 36px;
+  overflow: hidden;
   border: 1px solid var(--border);
   border-radius: 18px;
   background: #fff;
   box-shadow: 0 22px 56px rgba(13,39,64,.10);
+}
+.hero__visual-img {
+  object-fit: cover;
 }
 @media (max-width: 980px) {
   .hero__inner {
@@ -250,7 +252,7 @@ input:focus, select:focus, textarea:focus {
     text-align: center;
   }
   .hero { padding: 64px 0; }
-  .hero__visual { min-height: 240px; padding: 24px; }
+  .hero__visual { min-height: 240px; }
 }
 
 /* ─── Ana sayfa görsel vitrini ─────────────────────────── */

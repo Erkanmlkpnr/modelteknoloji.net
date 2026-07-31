@@ -64,31 +64,6 @@ const WHY_US = [
   { title: "Kurumsal destek",   desc: "SLA opsiyonlu, tek muhataplı Türkçe teknik destek hattı.", paths: HEADSET },
 ];
 
-function HeroIllustration() {
-  return (
-    <svg viewBox="0 0 380 320" fill="none" strokeLinejoin="round" aria-hidden="true">
-      <g stroke="#C6D1DA" strokeWidth="1">
-        <path d="M40 240 L190 160 L340 240 L190 320 Z" />
-        <path d="M40 240 L40 260 L190 340 L340 260 L340 240" />
-      </g>
-      <g stroke="#0D2740" strokeWidth="1.5">
-        <path d="M130 200 L190 168 L250 200 L190 232 Z" />
-        <path d="M130 200 L130 120 L190 88 L250 120 L250 200" />
-        <path d="M190 232 L190 152 M130 120 L190 152 L250 120" />
-      </g>
-      <g stroke="#00819C" strokeWidth="1.5">
-        <path d="M190 88 L190 40 M250 120 L300 94 M130 120 L80 94" />
-        <circle cx="190" cy="34" r="5" />
-        <circle cx="306" cy="91" r="5" />
-        <circle cx="74" cy="91" r="5" />
-      </g>
-      <g stroke="#0696A1" strokeWidth="1" strokeDasharray="4 4">
-        <path d="M190 152 L280 200 M190 152 L100 200" />
-      </g>
-    </svg>
-  );
-}
-
 export default function Home() {
   return (
     <div>
@@ -114,7 +89,14 @@ export default function Home() {
             </div>
           </div>
           <div className="hero__visual">
-            <HeroIllustration />
+            <Image
+              src="/img/cnc-torna.jpeg"
+              alt="CNC torna tezgahında işlenen metal mil"
+              fill
+              sizes="(max-width: 980px) 100vw, 40vw"
+              priority
+              className="hero__visual-img"
+            />
           </div>
         </div>
       </section>
