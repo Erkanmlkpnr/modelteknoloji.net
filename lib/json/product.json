@@ -36,8 +36,8 @@
     "id": "solid-edge-floefd",
     "title": "Solid Edge FloEFD",
     "category": "Simulation",
-    "image": "/img/3d-publishing.jpeg",
-    "imageAlt": "Solid Edge FloEFD için üç boyutlu mühendislik modeli görünümü",
+    "image": "/img/floefd-akis-analizi.jpeg",
+    "imageAlt": "Solid Edge FloEFD ile emme manifoldunda akış çizgileri ve hız dağılımı analizi",
     "tags": ["CFD", "Akışkanlar", "Termal", "Analiz"],
     "description": "Solid Edge FloEFD, ürünlerin akışkan davranışlarını simüle etmek ve analiz etmek için kullanılan bir yazılımdır. Termal analiz, hava akışı ve sıvı dinamikleri gibi süreçlerde benzersiz bir doğruluk sunar.",
     "features": [
@@ -85,8 +85,8 @@
     "id": "solid-edge-pdm",
     "title": "Solid Edge PDM",
     "category": "PDM",
-    "image": "/img/electrical-pano.jpeg",
-    "imageAlt": "Solid Edge PDM ile yönetilen mühendislik proje verileri",
+    "image": "/img/pdm-montaj-agaci.jpeg",
+    "imageAlt": "Solid Edge PDM'de montaj ağacıyla yönetilen çok parçalı makine montajı",
     "tags": ["Dosya yönetimi", "Otomatik kodlama", "Klonlama", "Proje"],
     "description": "Solid Edge PDM, Solid Edge bünyesinde gelen ve temel düzeyde dosya yönetimi yapmanızı sağlayan uygulamadır. Dosya klonlama, veri transfer etme, otomatik kodlama, çoklu isim ve proje değiştirme işlevleriyle tasarım verilerinizi düzenli tutmanız için zengin bir altyapı sunar.",
     "features": [

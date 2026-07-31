@@ -18,10 +18,10 @@ import {
 const FEATURED = [
   { id: "solid-edge",            cat: "CAD",           name: "Solid Edge",            desc: "Senkron teknolojili 3B ve 2B CAD. Modelleme, sac metal, montaj ve teknik resim tek uygulamada.", img: "/img/buyuk-montaj.jpeg",      alt: "Solid Edge'de çok parçalı büyük montaj görünümü" },
   { id: "solid-edge-electrical", cat: "Electrical",    name: "Solid Edge Electrical", desc: "Elektrik şeması ve kablo demeti tasarımı. Mekanik tasarımla tam entegre elektromekanik iş akışı.", img: "/img/wiring-harness.jpeg",   alt: "Solid Edge Electrical'da kablo demeti tasarımı" },
-  { id: "solid-edge-floefd",     cat: "Simulation",    name: "FloEFD",                desc: "CAD içine gömülü hesaplamalı akışkanlar dinamiği. Tasarım aşamasında akış ve ısı analizi.", img: "/img/3d-publishing.jpeg",    alt: "Solid Edge FloEFD için üç boyutlu mühendislik modeli görünümü" },
+  { id: "solid-edge-floefd",     cat: "Simulation",    name: "FloEFD",                desc: "CAD içine gömülü hesaplamalı akışkanlar dinamiği. Tasarım aşamasında akış ve ısı analizi.", img: "/img/floefd-akis-analizi.jpeg", alt: "Solid Edge FloEFD ile emme manifoldunda akış çizgileri ve hız dağılımı analizi" },
   { id: "solid-edge-keyshot",    cat: "Visualization", name: "KeyShot",               desc: "Gerçek zamanlı render ve animasyon. Ürünlerinizi pazarlama kalitesinde görselleştirin.", img: "/img/keyshot-render.jpeg",    alt: "KeyShot ile hazırlanmış foto gerçekçi ürün render'ı" },
   { id: "solid-edge-simulation", cat: "Simulation",    name: "Simulation",            desc: "Sonlu elemanlar analizi ile yapısal doğrulama. Prototip maliyetlerini tasarım masasında azaltın.", img: "/img/cam-pro-simulasyon.jpeg", alt: "Solid Edge Simulation'da analiz ve simülasyon arayüzü" },
-  { id: "solid-edge-pdm",        cat: "PDM",           name: "PDM",                   desc: "Temel düzeyde dosya yönetimi. Klonlama, otomatik kodlama ve toplu isim/proje değiştirme.", img: "/img/electrical-pano.jpeg",   alt: "Solid Edge PDM ile yönetilen mühendislik proje verileri" },
+  { id: "solid-edge-pdm",        cat: "PDM",           name: "PDM",                   desc: "Temel düzeyde dosya yönetimi. Klonlama, otomatik kodlama ve toplu isim/proje değiştirme.", img: "/img/pdm-montaj-agaci.jpeg",  alt: "Solid Edge PDM'de montaj ağacıyla yönetilen çok parçalı makine montajı" },
 ];
 
 const SHOWCASE = [
