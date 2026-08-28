@@ -1,0 +1,28 @@
+# Model Teknoloji
+
+> Siemens Solid Edge ürün ailesinin Türkiye'deki satış, eğitim ve destek çözüm ortağı. Ankara merkezli olarak Türkiye genelinde Türkçe sertifikalı eğitim, kurumsal işe alıştırma (onboarding) ve SLA seçenekli teknik destek sunar.
+
+Model Teknoloji; makine imalatı, özel makine tasarımı, otomotiv yan sanayi, savunma sanayi tedarikçileri, sac metal üretimi ve otomasyon sistemleri alanlarında çalışan mühendislik ekiplerine Siemens Solid Edge (2D/3D CAD) çözümleri sağlar. SolidWorks gibi farklı CAD sistemlerinden Solid Edge'e geçiş süreçlerinde veri taşıma, eğitim ve destek hizmeti verir.
+
+## Ürünler
+
+- [Solid Edge](https://www.modelteknoloji.net/products/solid-edge): 3D/2D CAD — parça modelleme, montaj, sac metal, teknik resim, Senkron Teknoloji
+- [Solid Edge Electrical](https://www.modelteknoloji.net/products/solid-edge-electrical): Elektrik tasarımı ve kablo donanımı
+- [FloEFD](https://www.modelteknoloji.net/products/solid-edge-floefd): Akışkan ve ısıl analiz (CFD)
+- [KeyShot](https://www.modelteknoloji.net/products/solid-edge-keyshot): Fotogerçekçi görselleştirme
+- [Simulation](https://www.modelteknoloji.net/products/solid-edge-simulation): Yapısal analiz ve simülasyon
+- [PDM](https://www.modelteknoloji.net/products/solid-edge-pdm): Ürün veri yönetimi
+- [CAM Pro](https://www.modelteknoloji.net/products/solid-edge-cam-pro): CNC üretim programlama
+- [Tüm ürünler](https://www.modelteknoloji.net/products)
+
+## İçerik
+
+- [Blog](https://www.modelteknoloji.net/blogs): Solid Edge, CAD/CAM ve geçiş süreçleri üzerine Türkçe rehberler
+- [Hakkımızda](https://www.modelteknoloji.net/about)
+- [İletişim](https://www.modelteknoloji.net/contact)
+
+## İletişim
+
+- Telefon: +90 312 999 46 13
+- E-posta: info@modelteknoloji.net
+- Adres: Kızılırmak Mah. Dumlupınar Bulvarı No:3C1-160 Next Level Plaza, Çankaya / Ankara, Türkiye

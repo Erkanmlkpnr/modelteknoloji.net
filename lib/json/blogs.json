@@ -1,5 +1,413 @@
 [
     {
+      "id": "solidworks-ten-solid-edge-e-gecis-rehberi",
+      "title": "SolidWorks'ten Solid Edge'e Geçiş Rehberi (2026)",
+      "imageUrl": "/img/buyuk-montaj.jpeg",
+      "summary": "SolidWorks dosyalarınız Solid Edge'de açılır mı? Veri taşıma, eğitim ve lisans süreci nasıl işler? Mühendislik ekipleri için adım adım geçiş rehberi.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Türkiye'de birçok mühendislik ekibi, 3B CAD yazılımını değerlendirirken aynı soruları soruyor: Mevcut dosyalarımız ne olacak, ekip yeni programa ne kadar sürede alışır, toplam maliyet nasıl değişir? Bu rehberde, SolidWorks kullanan bir ekibin Siemens Solid Edge'e geçiş sürecini adım adım anlatıyoruz. Amacımız pazarlama sloganı değil; karar vermeden önce bilmeniz gereken somut noktaları netleştirmek."
+        },
+        {
+          "type": "heading",
+          "text": "Neden Geçiş Gündeme Geliyor?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Görüştüğümüz firmalarda geçiş kararının arkasında genellikle şu nedenler var:"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Lisans esnekliği: Solid Edge, farklı bütçelere uyan kademeli paketler ve abonelik seçenekleri sunar; ihtiyacınız kadar modüle ödeme yaparsınız."
+        },
+        {
+          "type": "paragraph",
+          "text": "• Senkron teknoloji: Parametrik modelleme ile direkt modellemeyi bir arada kullanabilirsiniz. Başka CAD programlarından gelen (içe aktarılmış) modelleri, ağaç geçmişi olmadan da hızla düzenlemek mümkündür — geçiş yapan ekipler için büyük avantaj."
+        },
+        {
+          "type": "paragraph",
+          "text": "• Büyük montaj performansı: Binlerce parçalı montajlarda akıcı çalışma, Solid Edge kullanıcılarının en sık öne çıkardığı konulardan biridir."
+        },
+        {
+          "type": "paragraph",
+          "text": "• Tek ekosistem: Tasarım (CAD), simülasyon, elektrik, CAM ve veri yönetimi (PDM) modülleri aynı ailede; Siemens Xcelerator ekosistemiyle ERP/PLM entegrasyonları desteklenir."
+        },
+        {
+          "type": "heading",
+          "text": "En Kritik Soru: Mevcut SolidWorks Dosyalarım Ne Olacak?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Geçişin önündeki en büyük endişe genellikle veri kaybıdır. Burada durum sanıldığından iyidir: Solid Edge, SolidWorks parça ve montaj dosyalarını içe aktarabilir. Siemens'in SolidWorks Veri Taşıma Aracı; teknik resimleri, montaj ilişkilerini, delik özelliklerini, malzeme bilgilerini ve özel (custom) özellikleri koruyarak toplu aktarım yapar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pratikte önerdiğimiz yaklaşım: Aktif projeleri planlı şekilde taşımak, arşiv projeleri ise ihtiyaç oldukça açmaktır. Böylece geçiş günlük işi durdurmaz."
+        },
+        {
+          "type": "heading",
+          "text": "Ekibim Yeni Programa Alışabilir mi?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yıllarca SolidWorks kullanmış bir mühendisin alışkanlıkları değerlidir ve Solid Edge bunu bilerek tasarlanmış araçlar sunar. Command Finder özelliği, bildiğiniz SolidWorks komutunun adını yazdığınızda Solid Edge'deki karşılığını gösterir. Buna ek olarak Model Teknoloji olarak Türkçe sertifikalı eğitim programları düzenliyor, kurumsal ekipler için işe alıştırma (onboarding) süreci yürütüyoruz. Siemens'in çevrimiçi eğitim platformundaki kurslar da ekibinize açıktır."
+        },
+        {
+          "type": "heading",
+          "text": "Adım Adım Geçiş Süreci"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. İhtiyaç analizi ve demo: Mevcut iş akışınızı ve kullandığınız modülleri birlikte inceliyoruz; size özel bir demo yapıyoruz."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Pilot çalışma: Kendi parçalarınızdan seçilen örnekler üzerinde, uzmanlarımız eşliğinde uygulamalı bir değerlendirme çalışması yapılır. Karar bu somut deneyime dayanır."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Veri taşıma planı: Hangi projelerin, hangi sırayla taşınacağı belirlenir; aktarım araçlarıyla test aktarımı yapılır."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Ekip eğitimi: Temel eğitim ve kullandığınız modüllere göre (sac metal, kaynak, simülasyon vb.) ileri eğitimler planlanır."
+        },
+        {
+          "type": "paragraph",
+          "text": "5. Canlıya geçiş ve destek: Geçiş sonrası sorularınız için SLA seçenekli teknik destek devrededir."
+        },
+        {
+          "type": "heading",
+          "text": "Maliyet Nasıl Hesaplanır?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Toplam maliyet; kullanıcı sayısına, seçilen paket ve modüllere, abonelik süresine ve eğitim ihtiyacına göre değişir. Bu nedenle tek bir liste fiyatı vermek yanıltıcı olur. Mevcut SolidWorks lisans yapınızı paylaşırsanız, karşılaştırmalı bir maliyet tablosunu ücretsiz hazırlıyoruz."
+        },
+        {
+          "type": "heading",
+          "text": "Sık Sorulan Sorular"
+        },
+        {
+          "type": "paragraph",
+          "text": "SolidWorks dosyaları Solid Edge'de açılır mı? — Evet. Solid Edge, SolidWorks parça ve montaj dosyalarını içe aktarabilir. Veri taşıma aracı; teknik resimleri, montaj ilişkilerini, delik özelliklerini, malzeme bilgilerini ve özel özellikleri koruyarak toplu aktarım yapar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Geçiş süreci ne kadar sürer? — Ekip büyüklüğüne ve proje sayısına göre değişir. Küçük ve orta ölçekli ekipler, pilot çalışma ve temel eğitim sonrasında genellikle birkaç hafta içinde üretken şekilde çalışmaya başlar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eğitim ve teknik destek Türkçe mi? — Evet. Model Teknoloji, Ankara merkezli olarak Türkiye genelinde Türkçe sertifikalı eğitim ve SLA seçenekli teknik destek sunar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Geçiş sırasında devam eden projelerimiz aksar mı? — Hayır. Önerdiğimiz yaklaşımda aktif projeler planlı şekilde taşınır, arşiv projeleri ihtiyaç oldukça açılır; böylece geçiş günlük işleyişi durdurmaz."
+        },
+        {
+          "type": "heading",
+          "text": "Geçişi Birlikte Planlayalım"
+        },
+        {
+          "type": "paragraph",
+          "text": "Model Teknoloji, Siemens Solid Edge ürün ailesinin Türkiye'deki satış, eğitim ve destek çözüm ortağıdır. SolidWorks'ten geçişi değerlendiriyorsanız, ekibinize özel bir demo ve pilot çalışma planı için görüşme planlayabilirsiniz."
+        },
+        {
+          "type": "paragraph",
+          "text": "Telefon: +90 312 999 46 13 • E-posta: info@modelteknoloji.net • Adres: Kızılırmak Mah. Dumlupınar Bulvarı No:3C1-160 Next Level Plaza, Çankaya / Ankara"
+        }
+      ],
+      "date": "2026-08-28",
+      "author": "Teknik Ekip"
+    },
+    {
+      "id": "siemens-solid-edge-nedir",
+      "title": "Siemens Solid Edge Nedir? Özellikleri, Kullanım Alanları ve Avantajları",
+      "imageUrl": "/img/3d-publishing.jpeg",
+      "summary": "Siemens Solid Edge nedir, ne işe yarar ve hangi sektörlerde kullanılır? 3D CAD, sac metal, montaj, teknik resim ve Senkron Teknoloji özellikleriyle kapsamlı bir bakış.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Siemens Solid Edge, ürün tasarımı ve mühendislik süreçlerinde kullanılan profesyonel bir 2D ve 3D CAD yazılımıdır. Parça modelleme, montaj tasarımı, sac metal, yüzey modelleme, teknik resim ve üretime hazırlık gibi birçok mühendislik işleminin aynı yazılım ortamında gerçekleştirilmesine imkân sağlar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Makine ve ekipman tasarlayan işletmeler için CAD yazılımı, yalnızca üç boyutlu model oluşturma aracı değildir. Tasarımın değiştirilmesi, farklı departmanlarla paylaşılması, üretim resimlerinin hazırlanması ve ürün verilerinin yönetilmesi de ürün geliştirme sürecinin önemli parçalarıdır. Solid Edge, bu süreçleri bütünleşik bir mühendislik ortamında yürütmeye yönelik araçlar sunar."
+        },
+        {
+          "type": "heading",
+          "text": "3D CAD Programı Nedir?"
+        },
+        {
+          "type": "paragraph",
+          "text": "CAD, İngilizce Computer Aided Design (bilgisayar destekli tasarım) kavramının kısaltmasıdır. 3D CAD yazılımları; mühendislerin ve tasarımcıların üretilecek parçaları, makineleri ve sistemleri fiziksel üretim başlamadan önce dijital ortamda modellemesini sağlar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Günümüzde mühendislik dünyasında Siemens Solid Edge'in yanı sıra SolidWorks, Autodesk Inventor, Siemens NX, PTC Creo ve CATIA gibi farklı 3D CAD çözümleri de kullanılmaktadır. Her yazılımın çalışma yöntemi, sunduğu modüller ve hedeflediği kullanım senaryoları farklıdır. CAD tercihi yapılırken tasarlanan ürünlerin yapısı, kullanıcı sayısı, mevcut CAD verileri, üretim süreçleri ve teknik destek ihtiyaçları birlikte değerlendirilmelidir. Model Teknoloji olarak uzmanlık alanımız Siemens Solid Edge çözümleridir."
+        },
+        {
+          "type": "heading",
+          "text": "Solid Edge ile Neler Yapılabilir?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Solid Edge, bir ürünün ilk tasarımından üretim için gerekli teknik dokümantasyona kadar farklı mühendislik işlemlerini kapsar. Başlıca kullanım alanları şunlardır:"
+        },
+        {
+          "type": "paragraph",
+          "text": "• 3D parça modelleme ve montaj tasarımı"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Büyük montajlarla çalışma"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Sac metal tasarımı ve yüzey modelleme"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Teknik resim hazırlama"
+        },
+        {
+          "type": "paragraph",
+          "text": "• DWG ve DXF dosyalarıyla çalışma"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Farklı CAD sistemlerinden gelen modelleri kullanma"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Tasarım revizyonları ve ürün görselleştirme"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Tasarım verilerinin yönetimi ve üretime yönelik dokümantasyon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bu yapı; aynı ürün üzerinde çok sayıda revizyon yapan veya farklı müşterilerden ve tedarikçilerden CAD verisi alan işletmeler açısından özellikle önemlidir."
+        },
+        {
+          "type": "heading",
+          "text": "Solid Edge Senkron Teknoloji Nedir?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Solid Edge'in öne çıkan teknolojilerinden biri Senkron Teknoloji (Synchronous Technology) altyapısıdır. Klasik parametrik modellemede model üzerindeki değişiklikler çoğu zaman parçanın oluşturulma geçmişine, eskizlere ve unsurlara bağlıdır. Senkron Teknoloji ise geometrinin doğrudan model üzerinden değiştirilmesine olanak sağlar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Örneğin dışarıdan gelen bir 3D modelde bir deliğin çapı değiştirilebilir, bir yüzeyin konumu taşınabilir, parçanın belirli bir bölümü genişletilebilir veya geometrik ilişkiler yeniden tanımlanabilir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bu özellik, farklı CAD sistemlerinden gelen modeller üzerinde çalışan firmalar için büyük değer taşır. Bir tedarikçiden veya müşteriden alınan modelin tasarım ağacının bulunmaması, model üzerinde değişiklik yapılamayacağı anlamına gelmez; Senkron Teknoloji bu tür geometriler üzerinde doğrudan çalışma imkânı sunar."
+        },
+        {
+          "type": "heading",
+          "text": "Farklı CAD Sistemlerinden Gelen Dosyalarla Çalışmak"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mühendislik firmaları her zaman yalnızca kendi oluşturdukları CAD modelleriyle çalışmaz; müşterilerden, tedarikçilerden veya farklı ekiplerden gelen dosyaların açılması ve gerektiğinde değiştirilmesi gerekebilir. Bu dosyalar STEP, Parasolid ve farklı CAD formatlarında olabilir. Özellikle fason üretim yapan, özel makine geliştiren veya farklı müşterilerle çalışan firmalarda bu ihtiyaç sık görülür. Solid Edge'in farklı CAD verileriyle çalışma kabiliyeti ve Senkron Teknoloji yaklaşımı, dışarıdan gelen modellerin yeniden kullanılmasını kolaylaştırır."
+        },
+        {
+          "type": "heading",
+          "text": "Parça Modelleme ve Montaj Tasarımı"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bir makinenin veya ürünün temelini tekil parçalar oluşturur. Solid Edge içerisinde mekanik parçalar üç boyutlu olarak modellenir ve ölçülendirilir; geometri değiştirilebilir, yeni özellikler eklenebilir ve tasarımın farklı versiyonları oluşturulabilir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Makine tasarımında parçaların tek tek modellenmesi yeterli değildir; birbirleriyle nasıl çalışacakları da kontrol edilmelidir. Solid Edge montaj ortamında parçalar bir araya getirilerek ürünün tamamı oluşturulur, parçalar arasındaki ilişkiler tanımlanır ve montaj yapısı ürün henüz üretilmeden dijital ortamda incelenir."
+        },
+        {
+          "type": "heading",
+          "text": "Büyük Montajlarla Çalışma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Endüstriyel makineler ve üretim sistemleri yüzlerce, hatta binlerce bileşenden oluşabilir. Bu nedenle CAD yazılımının büyük montajlarla çalışma yeteneği önemli bir seçim kriteridir. Solid Edge, yüksek parça sayısına sahip montajlarda model görüntüleme, parça düzenleme ve teknik resim süreçlerinin verimli yürütülmesine yönelik araçlar içerir. Özel makine, üretim hattı ve otomasyon sistemleri tasarlayan işletmeler için büyük montaj performansı günlük mühendislik çalışmalarını doğrudan etkiler."
+        },
+        {
+          "type": "heading",
+          "text": "Sac Metal Tasarımı"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sac metal tasarımı, klasik katı modellemeden farklı üretim kurallarına sahiptir: sac kalınlığı, büküm yarıçapı, flanşlar ve açınım gibi unsurların tasarım sırasında dikkate alınması gerekir. Solid Edge içerisinde sac metal parçalar için özel bir tasarım ortamı bulunur; flanşlar, bükümler, kesimler ve sac metal detayları bu ortamda oluşturulur. Tasarım tamamlandıktan sonra parçanın açınımı alınarak üretimde kullanılacak veriler hazırlanır. Makine gövdeleri, kabinler, panolar ve çeşitli sac konstrüksiyonlar tasarlayan işletmeler için önemli bir kullanım alanıdır."
+        },
+        {
+          "type": "heading",
+          "text": "Teknik Resim Hazırlama"
+        },
+        {
+          "type": "paragraph",
+          "text": "3D model oluşturulduktan sonra üretimin ihtiyaç duyduğu teknik bilgilerin hazırlanması gerekir. Solid Edge teknik resim ortamında parçaların ve montajların 2D teknik resimleri oluşturulur; farklı görünüşler, kesitler, detay görünüşleri, ölçüler, tolerans bilgileri ve üretim notları kullanılabilir. 3D model ile teknik resim arasındaki ilişki, tasarım değişikliklerinin dokümantasyona kontrollü şekilde aktarılmasını sağlar — revizyon süreçlerinde önemli bir avantajdır."
+        },
+        {
+          "type": "heading",
+          "text": "Solid Edge 2D Drafting Nedir?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Her işletmenin ihtiyacı doğrudan 3D modelleme olmayabilir. Bazı kullanıcılar yalnızca mevcut DWG veya DXF dosyalarını açmak, değiştirmek veya yeni 2D çizimler hazırlamak ister. Solid Edge ailesinde bu ihtiyaçlara yönelik 2D Drafting çözümü bulunur. Eski teknik resim arşivi olan veya müşterilerinden DWG/DXF dosyaları alan işletmeler için 2D çizimlerle çalışma kabiliyeti önem taşır."
+        },
+        {
+          "type": "heading",
+          "text": "Ürün Görselleştirme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Henüz üretilmemiş bir makinenin veya ürünün nasıl görüneceğini müşteriye göstermek, teklif ve satış süreçlerinde önemli bir avantajdır. Solid Edge modelleri kullanılarak fotogerçekçi ürün görselleri hazırlanabilir; bu görseller web sitelerinde, kataloglarda, müşteri sunumlarında ve teklif çalışmalarında kullanılabilir."
+        },
+        {
+          "type": "heading",
+          "text": "CAD Dosya ve Tasarım Verilerinin Yönetimi"
+        },
+        {
+          "type": "paragraph",
+          "text": "İşletmedeki CAD dosyalarının sayısı arttıkça yalnızca modelleme değil, veri yönetimi de kritik hale gelir. Aynı parçanın farklı kopyalarının oluşması, eski revizyonların kullanılması veya yanlış dosyanın üretime gönderilmesi ciddi problemlere yol açabilir. Solid Edge ekosisteminde tasarım dosyalarının düzenlenmesine ve yönetilmesine yardımcı araçlar bulunur; dosya kopyalama, proje değişiklikleri ve veri transferi gibi işlemler ürün geliştirme süreçlerinin kontrollü yürütülmesine katkı sağlar."
+        },
+        {
+          "type": "heading",
+          "text": "Solid Edge Hangi Sektörlerde Kullanılır?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Solid Edge farklı mühendislik alanlarında kullanılır. Başlıcaları:"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Makine imalatı ve özel makine tasarımı"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Otomotiv yan sanayi ve savunma sanayi tedarikçileri"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Endüstriyel ekipman ve sac metal üretimi"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Otomasyon sistemleri ve üretim hattı tasarımı"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Mühendislik ve proje firmaları"
+        },
+        {
+          "type": "paragraph",
+          "text": "Burada belirleyici olan yalnızca sektör değil, işletmenin ürün geliştirme şeklidir. Sürekli yeni ürün tasarlayan, müşteriye özel makineler geliştiren veya yoğun tasarım revizyonu yapan işletmelerde CAD altyapısının önemi daha da artar."
+        },
+        {
+          "type": "heading",
+          "text": "Solid Edge İşletmelere Ne Sağlar?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Doğru CAD altyapısının katkısı yalnızca çizim süresinin kısalması değildir. Solid Edge; ürün geliştirme süreçlerinin hızlanmasına, tasarım revizyonlarının kontrollü yapılmasına, tekrar eden mühendislik işlerinin azalmasına, üretime gönderilen teknik verilerin düzenli hazırlanmasına, ekipler arası bilgi paylaşımının gelişmesine ve mevcut CAD verilerinin yeniden kullanılmasına yardımcı olur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sonuçta CAD yatırımı yalnızca mühendislik departmanını değil; üretim, satın alma, kalite ve satış departmanlarını da etkiler."
+        },
+        {
+          "type": "heading",
+          "text": "Solid Edge Lisansı Nasıl Seçilir?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Her işletmenin ihtiyacı aynı değildir: bir firma temel 3D modelleme ve teknik resim ararken, bir diğeri gelişmiş sac metal, büyük montaj veya ek mühendislik araçlarına ihtiyaç duyar. Lisans seçiminde yalnızca ürün adı veya fiyat üzerinden karar verilmemeli; kullanıcı sayısı, yapılan tasarımların türü, montaj büyüklüğü, sac metal ihtiyacı, mevcut CAD verileri, teknik destek ve eğitim ihtiyacı ile firmanın gelecekteki büyüme planları birlikte değerlendirilmelidir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lisans koşulları ve ticari seçenekler dönemsel olarak değişebildiğinden, sabit bir fiyat üzerinden değerlendirme yapmak yerine firmanızın ihtiyacına uygun güncel teklif almak en doğrusudur."
+        },
+        {
+          "type": "heading",
+          "text": "CAD Yazılımı Seçerken Nelere Dikkat Edilmeli?"
+        },
+        {
+          "type": "paragraph",
+          "text": "CAD programı değiştirmek veya ilk kez profesyonel bir CAD sistemine geçmek uzun vadeli bir yatırımdır. Yalnızca yazılımın özellikleri değil, uygulama ve destek süreci de değerlendirilmelidir. Şu sorulara cevap vermeniz faydalı olur:"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Mevcut tasarımlar yeni sistemde kullanılabilecek mi?"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Mühendisler ne kadar eğitim alacak?"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Teknik bir problem yaşandığında destek alınabilecek mi?"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Müşteri ve tedarikçilerden gelen CAD verileriyle çalışılabilecek mi?"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Sistem mevcut bilgisayar altyapısıyla uyumlu mu?"
+        },
+        {
+          "type": "paragraph",
+          "text": "• İleride daha büyük projelere aynı altyapıyla devam edilebilecek mi?"
+        },
+        {
+          "type": "heading",
+          "text": "Model Teknoloji ile Solid Edge Çözümleri"
+        },
+        {
+          "type": "paragraph",
+          "text": "Model Teknoloji olarak işletmelerin yalnızca Solid Edge lisanslama sürecinde değil; yazılımın etkin kullanılması için gerekli eğitim ve teknik destek süreçlerinde de yanındayız. Firmanızın mevcut tasarım altyapısını ve mühendislik ihtiyaçlarını değerlendirerek hangi Solid Edge çözümünün uygun olduğunu birlikte belirleyebiliriz. Detaylı bilgi almak için bize ulaşın:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Telefon: +90 312 999 46 13 • E-posta: info@modelteknoloji.net • Adres: Kızılırmak Mah. Dumlupınar Bulvarı No:3C1-160 Next Level Plaza, Çankaya / Ankara"
+        },
+        {
+          "type": "heading",
+          "text": "Sık Sorulan Sorular"
+        },
+        {
+          "type": "paragraph",
+          "text": "Solid Edge nedir? — Siemens tarafından geliştirilen; parça modelleme, montaj, sac metal, teknik resim ve farklı mühendislik süreçlerinde kullanılabilen 2D ve 3D CAD yazılımıdır."
+        },
+        {
+          "type": "paragraph",
+          "text": "Solid Edge hangi alanlarda kullanılır? — Makine tasarımı, özel makine üretimi, sac metal, endüstriyel ekipman geliştirme ve farklı ürün tasarım süreçlerinde kullanılabilir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Solid Edge ile teknik resim hazırlanabilir mi? — Evet. 3D parça ve montaj modellerinden üretime yönelik 2D teknik resimler hazırlanabilir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Solid Edge farklı CAD dosyalarını açabilir mi? — Evet; STEP, Parasolid gibi nötr formatlar ve farklı CAD sistemlerinden gelen modellerle çalışma imkânı sunar. Senkron Teknoloji, bu modellerin düzenlenmesini kolaylaştırır."
+        },
+        {
+          "type": "paragraph",
+          "text": "Solid Edge ile sac metal tasarımı yapılabilir mi? — Evet. Sac metal tasarımına yönelik özel araçlar bulunur ve parçaların üretime yönelik açınımları hazırlanabilir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Solid Edge fiyatı ne kadar? — Lisans maliyeti; tercih edilen çözüm, lisanslama modeli, kullanıcı ihtiyacı ve güncel ticari koşullara göre değişir. Güncel seçenekler için Model Teknoloji üzerinden teklif alınabilir."
+        }
+      ],
+      "date": "2026-08-27",
+      "author": "Teknik Ekip"
+    },
+    {
       "id": "solid-edge-tasarimin-gelecegi",
       "title": "Solid Edge: Tasarımın Geleceği",
       "imageUrl": "/img/solidedge.jpeg",
