@@ -5,6 +5,7 @@ import "@/styles/main.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/react";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Script from "next/script";
 
 export const metadata: Metadata = {
@@ -119,6 +120,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </noscript>
 
         <a className="visually-hidden" href="#main">İçeriğe atla</a>
+        <GoogleAnalytics />
         <Header />
         <main id="main" style={{ paddingTop: "76px" }}>
           {children}
