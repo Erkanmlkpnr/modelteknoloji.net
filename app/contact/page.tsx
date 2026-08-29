@@ -66,6 +66,8 @@ export default function ContactPage() {
         EMAILJS_PUBLIC_KEY
       );
       setStatus("sent");
+      // GA4: başarılı form gönderimini potansiyel müşteri olayı olarak kaydet
+      window.gtag?.("event", "generate_lead", { form: "contact" });
       form.reset();
     } catch {
       setStatus("error");
