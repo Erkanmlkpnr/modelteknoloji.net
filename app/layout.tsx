@@ -88,14 +88,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               logo: "https://www.modelteknoloji.net/img/model-logo.png",
               description: "Siemens Solid Edge ürün ailesinin Türkiye'deki satış, eğitim ve destek çözüm ortağı.",
               foundingDate: "2024-08-20",
-              contactPoint: {
-                "@type": "ContactPoint",
-                telephone: "+90-312-999-46-13",
-                contactType: "customer service",
-                email: "info@modelteknoloji.net",
-                areaServed: "TR",
-                availableLanguage: "Turkish",
-              },
+              contactPoint: [
+                {
+                  "@type": "ContactPoint",
+                  telephone: "+90-312-999-46-13",
+                  contactType: "customer service",
+                  email: "info@modelteknoloji.net",
+                  areaServed: "TR",
+                  availableLanguage: "Turkish",
+                },
+                {
+                  "@type": "ContactPoint",
+                  telephone: "+90-533-070-36-29",
+                  contactType: "sales",
+                  email: "info@modelteknoloji.net",
+                  areaServed: "TR",
+                  availableLanguage: "Turkish",
+                },
+              ],
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Kızılırmak Mahallesi Dumlupınar Bulvarı No:3C1-160 Next Level Plaza",

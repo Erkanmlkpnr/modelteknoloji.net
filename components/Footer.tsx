@@ -34,6 +34,8 @@ export default function Footer() {
           <span className="footer-col-title">İletişim</span>
           <a href="mailto:info@modelteknoloji.net">info@modelteknoloji.net</a>
           <a href="tel:+903129994613">+90 312 999 46 13</a>
+          <a href="tel:+905330703629">+90 533 070 36 29</a>
+          <a href="https://wa.me/905330703629" target="_blank" rel="noopener noreferrer">WhatsApp</a>
           <p>Kızılırmak Mah. Dumlupınar Bulvarı No:3C1-160 Next Level Plaza Çankaya / Ankara</p>
         </div>
       </div>
